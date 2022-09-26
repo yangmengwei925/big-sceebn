@@ -1,0 +1,20 @@
+$box-width: 396px;
+$box-height: 410px;
+
+#normal_box {
+  padding:16px;
+  height: $box-height;
+  width: $box-width;
+  border-radius: 10px;
+  .bg-color-black {
+    height: $box-height - 30px;
+    border-radius: 10px;
+    .title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        padding: 10px 0 10px 10px;
+    }
+  }
+}
